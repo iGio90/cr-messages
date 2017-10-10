@@ -1,18 +1,44 @@
 {
+  "_from": "github:royale-proxy/cr-messages",
+  "_id": "cr-messages@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-ToWpTUR/prAsjTzmlYPkQts7UYM=",
+  "_location": "/cr-messages",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "cr-messages@github:royale-proxy/cr-messages",
     "name": "cr-messages",
-    "version": "1.0.0",
-    "description": "Clash Royale Network Message Definitions",
-    "homepage": "https://github.com/royale-proxy/cr-messages",
-    "bugs": {
-        "url": "https://github.com/royale-proxy/cr-messages/issues"
-    },
-    "author": "Royale Proxy",
-    "license": "GNU GPLv3",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/royale-proxy/cr-messages.git"
-    },
-    "engines": {
-        "node": ">=6.8.0"
-    }
+    "escapedName": "cr-messages",
+    "rawSpec": "github:royale-proxy/cr-messages",
+    "saveSpec": "github:royale-proxy/cr-messages",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:royale-proxy/cr-messages#64560f4a3c78005cea53c697fbe8ad2bb55bb82d",
+  "_spec": "cr-messages@github:royale-proxy/cr-messages",
+  "_where": "/home/igio90/Projects/JavaScript/node-cr-proxy",
+  "author": {
+    "name": "Royale Proxy"
+  },
+  "bugs": {
+    "url": "https://github.com/royale-proxy/cr-messages/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Clash Royale Network Message Definitions",
+  "engines": {
+    "node": ">=6.8.0"
+  },
+  "homepage": "https://github.com/royale-proxy/cr-messages",
+  "license": "GNU GPLv3",
+  "name": "cr-messages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royale-proxy/cr-messages.git"
+  },
+  "version": "1.0.0"
 }

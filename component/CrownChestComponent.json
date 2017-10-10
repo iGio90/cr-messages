@@ -1,0 +1,10 @@
+{
+  "name": "CrownChestComponent",
+  "fields": [
+    {"type": "RRSINT32", "name": "CurrentCrowns"},
+    {"type": "BYTE"},
+    {"type": "TimeComponent", "name": "NextCrowChest"},
+    {"type": "TimeComponent", "name": "UnknownTimestamp"},
+    {"type": "OwnChestDataListComponent", "name": "CrownChestAvailableData"}
+  ]
+}

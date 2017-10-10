@@ -1,0 +1,14 @@
+{
+  "name": "FreeChestComponent",
+  "fields": [
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32", "name": "NextFreeChestTimestamp"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "OwnChestDataListComponent", "name": "FreeChestSlotOne"},
+    {"type": "OwnChestDataListComponent", "name": "FreeChestSlotTwo"}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DeckComponent",
+  "fields": [
+    {"type": "CardComponent[]", "name": "Cards", "lengthType": "RRSINT32"}
+  ]
+}

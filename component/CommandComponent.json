@@ -5,15 +5,28 @@
   ],
   "extensions": [
     {
+      "id": 203,
+      "name": "LogicDonateCommand (203)",
+      "fields": [
+        {"name": "type", "type": "BYTE"},
+        {"name": "spell", "type": "BYTE"},
+        {"name": "streamID", "type": "LONG"},
+        {"name": "accepted", "type": "BYTE"},
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountId", "type": "RRSLONG"}
+      ]
+    },
+    {
       "id": 205,
       "name": "LogicLeaveAllianceCommand (208)",
       "fields": [
-          {"name": "allianceId", "type": "LONG"},
-          {"type": "BYTE"},
-          {"type": "RRSINT32"},
-          {"name": "tickStart", "type": "RRSINT32"},
-          {"name": "tickEnd", "type": "RRSINT32"},
-          {"type": "accountId", "type": "RRSLONG"}
+        {"name": "allianceId", "type": "LONG"},
+        {"type": "BYTE"},
+        {"type": "RRSINT32"},
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountId", "type": "RRSLONG"}
       ]
     },
     {

@@ -1,0 +1,12 @@
+{
+  "name": "CardListCardComponent",
+  "fields": [
+    {"type":"BYTE"},
+    {"type":"RRSINT32", "name":"ID"},
+    {"type":"RRSINT32", "name":"Level"},
+    {"type":"RRSINT32", "name":"Rarity"},
+    {"type":"RRSINT32", "name":"Number available"},
+    {"type":"RRSINT32"},
+    {"type":"RRSINT32"}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "OwnChestDataComponent",
+  "fields": [
+    {"type": "RRSINT32", "name": "id"}
+  ],
+  "extensions": [
+    {
+      "id": 0,
+      "name": "Available",
+      "fields": [
+        {"type": "RRSINT32", "name": "tick"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32", "name": "position"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Unlocked",
+      "fields": [
+        {"type": "RRSINT32", "name": "tick"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32", "name": "position"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Unlocking",
+      "fields": [
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32", "name": "unlock timestamp"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"}
+      ]
+    }
+  ]
+}

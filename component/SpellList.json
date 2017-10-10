@@ -1,7 +1,8 @@
 {
   "name": "SpellList",
   "fields": [
-    {"name": "card", "type": "SCID"},
+    {"type": "RRSINT32", "name": "type"},
+    {"type": "RRSINT32", "name": "spell"},
     {"type": "RRSINT32"}
   ]
 }

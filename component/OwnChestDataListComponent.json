@@ -1,0 +1,41 @@
+{
+  "name": "OwnChestDataListComponent",
+  "fields": [
+    {"type": "RRSINT32", "name": "id"}
+  ],
+  "extensions": [
+    {
+      "id": 0,
+      "name": "Something",
+      "fields": [
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Something",
+      "fields": [
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "OwnChestDataComponent", "name": "Data"}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Something",
+      "fields": [
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "OwnChestDataComponent", "name": "Data"}
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Something 2",
+      "fields": [
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "OwnChestDataComponent", "name": "Data"}
+      ]
+    }
+  ]
+}

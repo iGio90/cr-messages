@@ -1,0 +1,6 @@
+{
+  "name": "CardComponent",
+  "fields": [
+    {"type":"RRSINT32", "name":"Card"}
+  ]
+}

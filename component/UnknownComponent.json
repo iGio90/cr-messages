@@ -1,0 +1,9 @@
+{
+  "name": "UnknownComponent",
+  "fields": [
+    {"type":"BYTE"},
+    {"type":"BYTE"},
+    {"type":"INT" },
+    {"type":"RRSINT32"}
+  ]
+}

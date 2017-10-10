@@ -5,14 +5,24 @@
   ],
   "extensions": [
     {
+      "id": 203,
+      "name": "LogicDonateCommand (203)",
+      "fields": [
+        {"name": "type", "type": "BYTE"},
+        {"name": "spell", "type": "BYTE"},
+        {"name": "streamID", "type": "LONG"},
+        {"name": "accepted", "type": "BYTE"}
+      ]
+    },
+    {
       "id": 206,
       "name": "LogicJoinAllianceCommand (209)",
       "fields": [
-          {"name": "allianceId", "type": "LONG"},
-          {"name": "name", "type": "STRING"},
-          {"name": "badge", "type": "SCID"},
-          {"type": "BYTE"},
-          {"name": "accepted", "type": "BYTE"}
+        {"name": "allianceId", "type": "LONG"},
+        {"name": "name", "type": "STRING"},
+        {"name": "badge", "type": "SCID"},
+        {"type": "BYTE"},
+        {"name": "accepted", "type": "BYTE"}
       ]
     },
     {

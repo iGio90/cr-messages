@@ -4,12 +4,11 @@
   "fields": [
     {"name": "errorCode", "type": "RRSINT32"},
     {"name": "resourceFingerprintData", "type": "STRING"},
-    {"name": "redirectDomain", "type": "STRING"}, 
-    {"name": "contentURL", "type": "STRING"}, 
-    {"name": "updateURL", "type": "STRING"}, 
-    {"name": "reason", "type": "STRING"}, 
+    {"name": "redirectDomain", "type": "STRING"},
+    {"name": "contentURL", "type": "STRING"},
+    {"name": "updateURL", "type": "STRING"},
     {"name": "secondsUntilMaintenanceEnd", "type": "RRSINT32"},
-    {"type": "BYTE"},
-    {"type": "STRING"}
+    {"type": "UnknownLoginComponent[]", "name": "Unk", "lengthType": "RRSINT32"},
+    {"type": "UnknownLoginComponent[]", "name": "Assets", "lengthType": "RRSINT32"}
   ]
 }

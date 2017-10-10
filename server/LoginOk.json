@@ -25,6 +25,10 @@
     {"name": "region", "type": "STRING"},
     {"name": "contentURL", "type": "STRING"},
     {"name": "eventAssetsURL", "type": "STRING"},
-    {"type": "BYTE"}
+    {"type": "BYTE"},
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32"},
+    {"type": "UnknownLoginComponent[]", "name": "GameAssetsUrls", "lengthType": "RRSINT32"},
+    {"type": "UnknownLoginComponent[]", "name": "EventAssetsUrls", "lengthType": "RRSINT32"}
   ]
 }

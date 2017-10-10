@@ -4,10 +4,6 @@
   "fields": [
     {"name": "type", "type": "BYTE"},
     {"name": "spell", "type": "BYTE"},
-    {"type": "BYTE"},
-    {"type": "BYTE"},
-    {"type": "BYTE"},
-    {"type": "BYTE"},
     {"name": "streamID", "type": "LONG"}
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "name": "TimeComponent",
+  "fields": [
+    {"type":"RRSINT32"},
+    {"type":"RRSINT32"},
+    {"type":"RRSINT32", "name":"timestamp"}
+  ]
+}

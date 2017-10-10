@@ -1,0 +1,15 @@
+{
+  "name": "AvailableEventsComponent",
+  "fields": [
+    {"type": "RRSINT32"},
+    {"type": "STRING", "name":"EventTitle"},
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32", "name": "EventStartStamp"},
+    {"type": "RRSINT32", "name": "EventEndStamp"},
+    {"type": "RRSINT32", "name": "EventCreationStamp"},
+    {"type": "STRING"},
+    {"type": "STRING"},
+    {"type": "STRING", "name": "EventTitle"},
+    {"type": "STRING", "name": "EventData"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "UnknownComponent2",
+  "fields": [
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32"},
+    {"type": "RRSINT32"}
+  ]
+}
