@@ -1,0 +1,10 @@
+{
+    "id": 24112,
+    "name": "UdpConnectionInfo",
+    "fields": [
+        {"name": "port", "type": "RRSINT32"},
+        {"name": "host", "type": "STRING"},
+        {"name": "sessionKey", "type": "BYTE[]", "lengthType": "INT"},
+        {"name": "nonce", "type": "STRING"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "id": 21902,
+    "name": "SectorHearbeat",
+    "fields": [
+        {"name": "turns", "type": "RRSINT32"},
+        {"name": "checksum", "type": "RRSINT32"}
+    ]
+}

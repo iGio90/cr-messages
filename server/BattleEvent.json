@@ -1,0 +1,7 @@
+{
+  "id": 22952,
+  "name": "BattleEvent",
+  "fields": [
+    {"type": "RRSINT32", "name":"eventId"}
+  ]
+}
