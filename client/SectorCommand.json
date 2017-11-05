@@ -1,0 +1,9 @@
+{
+  "id": 12904,
+  "name": "SectorCommand",
+  "fields": [
+    {"name": "checksum", "type": "RRSINT32"},
+    {"name": "tick", "type": "RRSINT32"},
+    {"name": "cmd", "type": "SectorCommandComponent[]", "lengthType": "RRSINT32"}
+  ]
+}

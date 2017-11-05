@@ -1,0 +1,24 @@
+{
+  "name": "SectorCommandComponent",
+  "fields": [
+    {"name": "id", "type": "RRSINT32"}
+  ],
+  "extensions": [
+    {
+      "id": 1,
+      "name": "Deploy Unit Command",
+      "fields": [
+        {"type": "RRSINT32", "name":"tick"},
+        {"type": "BYTE"},
+        {"type": "RRSLONG", "name":"accountID"},
+        {"type": "RRSINT32", "name":"deckIndex"},
+        {"type": "RRSINT32", "name":"unitType"},
+        {"type": "RRSINT32", "name":"unitID"},
+        {"type": "BYTE"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32", "name":"x"},
+        {"type": "RRSINT32", "name":"y"}
+      ]
+    }
+  ]
+}
