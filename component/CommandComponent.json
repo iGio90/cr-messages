@@ -6,7 +6,7 @@
   "extensions": [
     {
       "id": 203,
-      "name": "LogicDonateCommand (203)",
+      "name": "LogicDonateCommand",
       "fields": [
         {"name": "type", "type": "BYTE"},
         {"name": "spell", "type": "BYTE"},
@@ -19,7 +19,7 @@
     },
     {
       "id": 205,
-      "name": "LogicLeaveAllianceCommand (208)",
+      "name": "LogicLeaveAllianceCommand",
       "fields": [
         {"name": "allianceId", "type": "LONG"},
         {"type": "BYTE"},
@@ -31,7 +31,7 @@
     },
     {
       "id": 210,
-      "name": "LogicClaimRewardCommand (213)",
+      "name": "LogicClaimRewardCommand",
       "fields": [
         {"name": "chestItem", "type": "ChestItem[]", "lengthType": "BYTE"},
         {"name": "gold", "type": "RRSINT32"},
@@ -46,7 +46,7 @@
     },
     {
       "id": 501,
-      "name": "LogicSelectDeckCommand (501)",
+      "name": "LogicSelectDeckCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -56,7 +56,7 @@
     },
     {
       "id": 502,
-      "name": "LogicStartExploringCommand (502)",
+      "name": "LogicStartExploringCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -66,7 +66,7 @@
     },
     {
       "id": 503,
-      "name": "LogicStartRewardClaimCommand (503)",
+      "name": "LogicStartRewardClaimCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -76,7 +76,7 @@
     },
     {
       "id": 504,
-      "name": "LogicFuseSpellsCommand (504)",
+      "name": "LogicFuseSpellsCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -86,7 +86,7 @@
     },
     {
       "id": 505,
-      "name": "LogicSpeedUpExploringCommand (506)",
+      "name": "LogicSpeedUpExploringCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -97,7 +97,7 @@
     },
     {
       "id": 509,
-      "name": "LogicCollectFreeChestCommand (518)",
+      "name": "LogicCollectFreeChestCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -106,7 +106,7 @@
     },
     {
       "id": 511,
-      "name": "LogicCollectMultiWinChestCommand (523)",
+      "name": "LogicCollectMultiWinChestCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -115,7 +115,7 @@
     },
     {
       "id": 512,
-      "name": "LogicRequestSpellsCommand (524)",
+      "name": "LogicRequestSpellsCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
@@ -136,7 +136,7 @@
     },
     {
       "id": 515,
-      "name": "LogicShareReplayCommand (527)",
+      "name": "LogicShareReplayCommand",
       "fields": [
         {"name": "battleEntryId", "type": "LONG"},
         {"name": "message", "type": "?STRING"},
@@ -146,8 +146,19 @@
       ]
     },
     {
+      "id": 518,
+      "name": "LogicClaimOffer",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountId", "type": "RRSLONG"},
+        {"type": "BYTE", "name":"offerSlot"},
+        {"type": "RRSINT32", "name":"possibleOfferIndex"}
+      ]
+    },
+    {
       "id": 523,
-      "name": "LogicClaimAchievementRewardCommand (535)",
+      "name": "LogicClaimAchievementRewardCommand",
       "fields": [
         {"name": "achievement", "type": "SCID"},
         {"type": "BYTE"},
