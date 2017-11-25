@@ -1,0 +1,7 @@
+{
+    "id": 26101,
+    "name": "TournamentList",
+    "fields":[
+        {"name": "entries", "type": "TournamentListEntry[]", "lengthType":"RRSINT32"}
+    ]
+}
