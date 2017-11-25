@@ -3,7 +3,7 @@
     "fields":[
         {"name": "PlayerHosterId", "type": "LONG"},
         {"name": "ClanHosterId", "type": "LONG"},
-        {"name": "TornamentId", "type": "LONG"},
+        {"name": "TournamentId", "type": "LONG"},
         {"name": "Name", "type": "STRING"},
         {"name": "Description", "type": "STRING"},
         {"name": "UnknownStr", "type": "STRING"},
