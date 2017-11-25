@@ -1,0 +1,22 @@
+{
+    "name": "TournamentListEntry",
+    "fields":[
+        {"name": "PlayerHosterId", "type": "LONG"},
+        {"name": "ClanHosterId", "type": "LONG"},
+        {"name": "TornamentId", "type": "LONG"},
+        {"name": "Name", "type": "STRING"},
+        {"name": "Description", "type": "STRING"},
+        {"name": "UnknownStr", "type": "STRING"},
+        {"name": "Duration", "type": "RRSINT32"},
+        {"name": "PeopleJoin", "type": "INT32"},
+        {"name": "Capacity", "type": "RRSINT32"},
+        {"name": "Protected", "type": "BYTE"},
+        {"name": "TimeLeft", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"name": "Timestamp", "type": "LONG"},
+        {"name": "AlreadyStarted", "type": "BYTE"},
+        {"type": "BYTE"},
+        {"type": "RRSINT32"},
+        {"type": "BYTE"}
+    ]
+}
