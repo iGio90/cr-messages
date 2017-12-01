@@ -1,0 +1,313 @@
+{
+  "name": "VHDUnknown",
+  "fields": [
+      {"name": "id", "type": "RRSINT32"}
+  ],
+  "extensions": [
+      {
+          "id": 0,
+          "fields": []
+      },
+      {
+          "id": 43,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 42,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 41,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 40,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 39,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 38,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 37,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 36,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 35,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 34,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 33,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 32,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 31,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 30,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 29,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 28,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 27,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 26,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 25,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 24,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 23,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 22,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 21,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 20,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 19,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 18,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 17,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 16,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 15,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 14,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 13,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 12,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 11,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 10,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 9,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 8,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 7,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 6,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 5,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 4,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 3,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 2,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      },
+      {
+          "id": 1,
+          "fields": [
+              {"type": "RRSINT32"},
+              {"type": "RRSINT32"}
+          ]
+      }
+  ]
+}

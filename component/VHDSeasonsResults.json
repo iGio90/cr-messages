@@ -1,0 +1,10 @@
+{
+  "name": "VHDSeasonsResults",
+  "fields": [
+    {"name": "seasonNumber", "type": "BYTE"},
+    {"name": "seasonHighest", "type": "RRSINT32"},
+    {"name": "previousSeasonTrophy", "type": "RRSINT32"},
+    {"name": "previousSeasonRanking", "type": "RRSINT32"},
+    {"type": "RRSINT32"}
+  ]
+}
