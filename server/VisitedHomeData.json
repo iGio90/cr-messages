@@ -1,0 +1,84 @@
+{
+    "id": 24113,
+    "name": "VisitedHomeData",
+    "fields": [
+
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+
+        {"name": "deck", "type": "VHDDeck[8]"},
+
+        {"name": "playerId", "type": "LONG"},
+
+        {"type": "VHDUnknown"},
+
+        {"name": "seasonsResults", "type": "VHDSeasonsResults[]", "lengthType":"RRSINT32"},
+
+        {"type": "BYTE"},
+
+        {"name": "playerId", "type": "RRSLONG"},
+        {"name": "playerId", "type": "RRSLONG"},
+        {"name": "playerId", "type": "RRSLONG"},
+
+        {"name": "playerName", "type": "STRING"},
+        {"name": "nameChanged", "type": "BYTE"},
+
+        {"name": "arena", "type": "BYTE"},
+        {"name": "currentTrophy", "type": "RRSINT32"},
+
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+
+        {"name": "legendTrophies", "type": "RRSINT32"},
+        {"name": "seasonHighest", "type": "RRSINT32"},
+
+        {"type": "RRSINT32"},
+
+        {"name": "bestSeasonRanking", "type": "RRSINT32"},
+        {"name": "bestSeasonTrophy", "type": "RRSINT32"},
+        {"name": "bestSeasonArena", "type": "BYTE"},
+        {"type": "BYTE"},
+
+        {"name": "previousSeasonRanking", "type": "RRSINT32"},
+        {"name": "previousSeasonTrophy", "type": "RRSINT32"},
+        {"name": "previousSeasonHighest", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"name": "previousSeasonArena", "type": "BYTE"},
+
+        {"type": "BYTE"},
+
+        {"name": "resources1", "type": "VHDScid[]", "lengthType":"RRSINT32"},
+
+        {"type": "RRSINT32"},
+
+        {"name": "achievements1", "type": "VHDScid[]", "lengthType":"RRSINT32"},
+
+        {"name": "achievements2", "type": "VHDScid[]", "lengthType":"RRSINT32"},
+
+        {"name": "resources2", "type": "VHDScid[]", "lengthType":"RRSINT32"},
+
+        {"name": "card", "type": "VHDScid[]", "lengthType":"RRSINT32"},
+
+
+        {"type": "?RRSINT32"},
+        {"type": "?BYTE"},
+        {"type": "?BYTE"},
+        {"type": "BYTE"},
+
+        {"name": "gems", "type": "RRSINT32"},
+        {"name": "gems", "type": "RRSINT32"},
+        {"name": "playerXp","type": "RRSINT32"},
+        {"name": "playerLevel", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+
+        {"name": "clan", "type": "VHDClan"},
+
+        {"name": "battles", "type": "RRSINT32"},
+        {"name": "tournamentsBattle", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"name": "wins", "type": "RRSINT32"},
+        {"name": "loses", "type": "RRSINT32"},
+        {"name": "IgnoredBytes", "type": "IGNORE"}
+    ]
+}

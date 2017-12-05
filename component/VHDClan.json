@@ -1,0 +1,33 @@
+{
+  "name": "VHDClan",
+  "fields": [
+      {"name": "id", "type": "BYTE"}
+  ],
+  "extensions": [
+      {
+          "id": 9,
+          "fields": [
+              {"name": "clanHi", "type": "RRSINT32"},
+              {"name": "clanLo", "type": "RRSINT32"},
+              {"name": "clanName", "type": "STRING"},
+              {"name": "clanBagde", "type": "RRSINT32"},
+              {"name": "clanRole", "type": "BYTE"}
+          ]
+      },
+      {
+          "id": 1,
+          "fields": [
+          ]
+      },
+      {
+          "id": 13,
+          "fields": [
+              {"name": "clanHi", "type": "RRSINT32"},
+              {"name": "clanLo", "type": "RRSINT32"},
+              {"name": "clanName", "type": "STRING"},
+              {"name": "clanBagde", "type": "RRSINT32"},
+              {"name": "clanRole", "type": "BYTE"}
+          ]
+      }
+  ]
+}

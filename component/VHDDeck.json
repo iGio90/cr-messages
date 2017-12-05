@@ -1,0 +1,12 @@
+{
+  "name": "VHDDeck",
+  "fields": [
+      {"name": "cardId", "type": "RRSINT32"},
+      {"name": "cardLevel", "type": "RRSINT32"},
+      {"type": "RRSINT32"},
+      {"name": "cardCount", "type": "RRSINT32"},
+      {"type": "RRSINT32"},
+      {"type": "RRSINT32"},
+      {"type": "RRSINT32"}
+  ]
+}
